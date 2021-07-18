@@ -1,0 +1,6 @@
+ARG POSTGRES_VERSION=12.4
+FROM kartoza/postgis:${POSTGRES_VERSION}
+
+CMD ["postgres"]
+
+EXPOSE 5432
